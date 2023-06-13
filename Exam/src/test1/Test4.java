@@ -10,21 +10,22 @@ public class Test4 {
 		
 		System.out.print("점수 입력 : ");
 		int score = sc.nextInt();
+		char grade;
 		
-		int n1 = 90, n2 = 80, n3= 70, n4= 60
-		System.out.println("입력한 점수는 " + score + " 입니다.");
 		
-		if(score > n1) {
+		System.out.println("입력한 점수는 " + score + " 입니다.");		
+	
+		if(score >= 90) {
 			grade ='A';
-		}else if (score > n2) {
+		}else if (score >= 80) {
 			grade = 'B';
-		}else if (score > n3) {
+		}else if (score >= 70) {
 			grade = 'C';
-		}else if (score > n4) {
+		}else if (score >= 60) {
 			grade = 'D';
 		}else {
 			grade = 'F';
 		}
-			System.out.println("등급은 %c입니다", grade);
+			System.out.printf("등급은 %c입니다", grade);
 	}
 }

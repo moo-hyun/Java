@@ -20,15 +20,15 @@ public class Test2 {
 		String name;
 		
 		System.out.println("올해 년도 입력 : ");
-		year = Integer.parseInt();
+		year = sc.nextInt();
 		
 		System.out.println("태어난 년도 입력 : ");
-		birth = 2001;
+		birth =sc.nextInt();
 		
-		Systee.out.println("이름 입력 : ");
-		name = 홍길동;
+		System.out.println("이름 입력 : ");
+		name = sc.next();
 				
-		int age = year -brith;
+		int age = year - birth;
 		
 		System.out.printf("%s님 안녕하세요. \n당신은 올해 만 %d세 입니다.", name, age);
 		
