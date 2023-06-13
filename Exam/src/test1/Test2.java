@@ -20,13 +20,13 @@ public class Test2 {
 		String name;
 		
 		System.out.println("올해 년도 입력 : ");
-		year = 2021
+		year = Integer.parseInt();
 		
 		System.out.println("태어난 년도 입력 : ");
-		birth = 2001
+		birth = 2001;
 		
 		Systee.out.println("이름 입력 : ");
-		name = 홍길동
+		name = 홍길동;
 				
 		int age = year -brith;
 		
