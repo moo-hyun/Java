@@ -9,7 +9,7 @@ public class Start {
 	
 	public static void main(String[] args) {
 		
-		for(int start = 0; start <=5; start++) {
+		for(int start = 1; start <=6; start++) {
 			
 			for(int end=1 ; end <= start ; end++)
 				
