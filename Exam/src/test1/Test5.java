@@ -28,7 +28,7 @@ public class Test5 {
 		case 6:
 			System.out.println("D 입니다.");
 			break;
-		default:
+		default:// 다아니면 디폴트로 실행
 			System.out.println("F 입니다.");
 			break;
 		

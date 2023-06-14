@@ -14,10 +14,10 @@ public class Test3 {
 		int num = 1;
 		int result = 1;
 		
-		result = num++;
+		result = num++; //대입 증강 이 있으면 증강이 뒤에있으면 대입부터함 
 		System.out.println("result : " + result);
 		
-		result = ++num;
+		result = ++num;// 증강이 앞에 있으니깐 증강후 대입
 		System.out.println("result : " + result);
 		
 		result = num--;

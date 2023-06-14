@@ -32,7 +32,7 @@ public class Test2 {
 		
 		System.out.printf("%s님 안녕하세요. \n당신은 올해 만 %d세 입니다.", name, age);
 		
-		sc.close();
+		sc.close();  //sc.close 를 해야 종료함 아니면 게속 실행중임 
 	}
 	
 }

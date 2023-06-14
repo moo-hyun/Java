@@ -18,7 +18,7 @@ public class Test01 {
 		boolean var6 = true;
 		boolean var7 = false;
 		String var8 = "hello";
-		String var9 = "nu11";
+		String var9 = "null"; //참조타입 String (null 널이 참조타입임)
 		
 		System.out.println("var1 : " + var1);
 		System.out.println("var2 : " + var2);

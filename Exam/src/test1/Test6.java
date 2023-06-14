@@ -21,7 +21,7 @@ public class Test6 {
 		System.out.println("y값 입력 :" );
 		int y= sc.nextInt();
 		
-		String result = x > y ? "x가 더 큽니다." :"y가 더 큽니다. ";
+		String result = x > y ? "x가 더 큽니다." :"y가 더 큽니다. "; //삼향 연산자 참이면 앞에열 대입 거짓이면 뒷열 대입
 		
 		System.out.println(result);
 		
