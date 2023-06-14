@@ -14,7 +14,8 @@ public class WhileTest {
 		int sum =0;
 		int k =1;
 		
-		//while(조건식 조건이 참이면 계속 반복)(거짓이 있어야 멈춤 끝이필요)
+		//while(조건식 조건이 true이면 계속 반복)(false이 있어야 멈춤 끝이필요)
+		// 구조:while(조건식) true면 > { }문 실행 조건식이 false일때까지 실행
 		while(k <= 10) {
 	    
 			sum += k;
@@ -24,7 +25,8 @@ public class WhileTest {
 		
 		System.out.println("1부터 10까지 합 : " + sum);
 		
-		//do~while (두 실행후 와일문 반복)
+		//do~while (두문 실행 > 와일문 > 두부터 반복 거짓일때 멈추고 프린트)
+		//do 문 안에 있는 if 문이 false 일때 do 문을 더이상 실행 하지않고 내려감
 		int tot= 0;
 		int i = 1;
 		
@@ -47,7 +49,8 @@ public class WhileTest {
 		
 		
 		
-		//break
+		//break ( 와일이 트루 라고 적어서 무한 반복 if문에서 false일때 beack 통과 
+		//        &&(둘다참) true일때 break(멈춤) 실행 프린트)
 		int num =1;
 		
 		while(true) {
@@ -74,7 +77,9 @@ public class WhileTest {
 			j++;
 			
 			if(j % 2 == 1) {
-				continue; // 반복문 처음으로 이동
+				continue; 
+			//continue if문이 true이면 while 문으로 이동 false시 
+			//	       다음문 실행
 			}
 			total += j;
 		}
