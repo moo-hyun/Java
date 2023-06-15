@@ -1,4 +1,4 @@
-package sub4;
+package sub1;
 /**
  * 
  * 날짜 :2023/06/14
