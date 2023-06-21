@@ -8,7 +8,7 @@ public class Calc {
 		return instance;
 	}
 	
-	private Calc() {}
+	private Calc() {} // 싱글톤 객체 특성으로 다른곳에서는 생성되지 못하도록 막기위해 쓰는 문법
 	
 	public int plus(int x, int y) {
 		return x+ y;

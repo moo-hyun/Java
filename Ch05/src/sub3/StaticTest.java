@@ -44,7 +44,7 @@ public class StaticTest {
 		Increment inc2 = new Increment ();
 		Increment inc3 = new Increment ();
 		
-		
+				
 		
 		Car sonota = new Car("소나타","흰색",10);
 		Car avante = new Car("아반데","검정",20);
