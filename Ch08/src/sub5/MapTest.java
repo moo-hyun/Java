@@ -79,6 +79,9 @@ public class MapTest {
 		// 태국사과
 		list.get(2).get(302).show();
 		
+		//중국사과
+		list.get(0).get(102).show();
+		
 		
 		
 	}
