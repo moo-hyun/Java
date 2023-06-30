@@ -45,9 +45,9 @@ public class ThrowTest {
 		Score score = new Score();
 		
 		try {
-			score.check(-3);
+			score.check(5);
 		
-			score.check(102);
+			score.check(8);
 		
 			score.check(96);
 		} catch (MinusException e) {
