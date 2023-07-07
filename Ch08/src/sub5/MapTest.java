@@ -38,7 +38,7 @@ public class MapTest {
 		
 		//map 반복문
 		for(char k : map.keySet()) {
-			System.out.println(k + " -  "+map.get(k));
+			System.out.println(k + "-" + map.get(k));
 		}
 		
 		//List -Map 응용

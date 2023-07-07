@@ -13,6 +13,8 @@ public class SwitchTest {
 
 	public static void main(String[] args) {
 		
+		
+		
 		System.out.print("숫자 입력 : ");
 		
 		// 사용자 입력

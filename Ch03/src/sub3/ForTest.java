@@ -24,8 +24,11 @@ public class ForTest {
 		
 		for(int k=1 ; k<=10 ; k++) {
 			
+			if(k % 2 ==1) {
+			
 			sum += k;		
 		}
+	}
 		System.out.println("1부터 10까지 합 : " + sum);
 		
 
