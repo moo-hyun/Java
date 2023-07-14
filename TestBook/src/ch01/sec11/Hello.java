@@ -7,9 +7,28 @@ package ch01.sec11;
  *
  */
 public class Hello {
+	
 	// 프로그램 실행 전입점
+public static int ads(int a, int b) {
+
+	int sum = a + b;
+	return sum;
+
+}
+
+	
+
+	
 	public static void main(String[] args) {
 		//콘솔에 출력하는 실행문
 		System.out.println("Hello Java");
+		
+		
+		int t1 = ads(8,10);
+		System.out.println(t1);
+	
+	
+
+
 	}
 }

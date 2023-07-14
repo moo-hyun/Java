@@ -49,7 +49,7 @@ public class WhileTest {
 		
 		
 		
-		//break ( 와일이 트루 라고 적어서 무한 반복 if문에서 false일때 beack 통과 
+		//break ( 와일이 트루 라고 적어서 무한 반복 if문에서 false일때 break 통과 
 		//        &&(둘다참) true일때 break(멈춤) 실행 프린트)
 		int num =1;
 		

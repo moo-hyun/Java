@@ -36,14 +36,14 @@ public class IfTest {
 		
 		
 		// if ~ else
-		int var1 =1, var2 =2;
+		int var1 =2, var2 =1;
 		
 		if(var1 < var2) {
 			//조건이 참일때
-			System.out.println("var1이 var2 보다 크다.");
+			System.out.println("var1이 var2 보다 작다.");
 		}else {
 			//조건이 거짓일때
-			System.out.println("var1이 var2보다 작다.");
+			System.out.println("var1이 var2 보다 크다.");
 			
 		}
 	
