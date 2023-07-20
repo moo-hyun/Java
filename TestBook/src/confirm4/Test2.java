@@ -1,0 +1,22 @@
+package confirm4;
+
+public class Test2 {
+	public static void main(String[] args) {
+		
+
+		
+		while (true) {
+			int num1 = (int) Math.ceil(Math.random()*6);
+			int num2 = (int) Math.ceil(Math.random()*6);
+			
+			
+			System.out.println("("+num1+","+num2+")");
+			
+			int tot = num1+num2;
+			if(tot == 5) {
+				break;
+			}
+		}
+	}
+
+}                                                                 
