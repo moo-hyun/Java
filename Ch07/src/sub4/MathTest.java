@@ -2,7 +2,7 @@ package sub4;
 /**
  * 날씨 : 2023/06/27
  * 이름 : 김무현
- * 내용 : Java String 클래스 실습하기
+ * 내용 : Java Math 클래스 실습하기
  *
  */
 
@@ -11,7 +11,7 @@ public class MathTest {
 		
 		//Math math = new Math();
 		
-		//기봅ㄴ 메서드
+		//기본 메서드
 		System.out.println("절대값 : " + Math.abs(-5));
 		System.out.println("제곱근 : " + Math.sqrt(9));
 		System.out.println("올림값 : " + Math.ceil(1.2));
